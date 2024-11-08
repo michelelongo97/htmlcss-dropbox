@@ -243,3 +243,32 @@ li{
 /*----------------
     FOOTER
 ------------------*/
+footer{
+    background-color: black;
+}
+
+footer h3{
+    color: white;
+}
+footer .big-container .row{
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: center;
+}
+
+footer ul{
+    color: white;
+    font-size: 14px;
+    list-style-type: none;
+    
+}
+
+footer li{
+    padding: 10px 0;
+}
+
+.footer-bottom{
+    color: white;
+    border-top: 1px solid white;
+    padding: 50px 0;
+}
