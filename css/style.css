@@ -5,6 +5,10 @@
     border: 2px dashed blueviolet;
 }
 
+.debug .small-container {
+    border: 2px dashed blueviolet;
+}
+
 .debug .row .col {
     border: 2px dashed lightcoral;
     background-color: rgba(240, 128, 128, 0.2);
@@ -141,11 +145,18 @@ header{
 }
 
 .colsmall{
-    width: 30%;
+    width: 35%;
 }
 
 .colbig{
-    width: 70%;
+    width: 65%;
+}
+
+.column{
+    width: 100%;
+    border: 1px solid black;
+  
+
 }
 
 .hero .colsmall{
@@ -205,6 +216,14 @@ li{
     
 }
 
+.row > .colbig{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.colsmall > .btn-large.btn-blue{
+    margin: 70px;
+}
 
 /*----------------
     FOOTER
