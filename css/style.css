@@ -1,7 +1,7 @@
 /*----------------
     DEBUG
 ------------------*/
-.debug .container {
+.debug .big-container {
     border: 2px dashed blueviolet;
 }
 
@@ -30,8 +30,16 @@
 /*----------------
     LAYOUT
 ------------------*/
-.container {
+.big-container {
     max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+
+.small-container {
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     /* padding-left: 20px;
@@ -63,6 +71,10 @@ body {
     font-family: "Open Sans", serif;
 }
 
+h1{
+    font-size: 60px;
+}
+
 /*----------------
     BUTTONS
 ------------------*/
@@ -87,6 +99,7 @@ body {
 .btn-blue{
     background-color: #0161fd;
     color: white;
+    border: none;
 }
 
 /*----------------
@@ -96,7 +109,6 @@ header{
     display: flex;
     padding: 25px 5px;
 }
-
 
 .headerleft{
     width: 50%;
@@ -121,6 +133,38 @@ header{
 /*----------------
     MAIN
 ------------------*/
+.hero{
+    display: flex;
+    background-color: #b3d0e6;
+   
+}
+
+.colsmall{
+    width: 30%;
+}
+
+.colbig{
+    width: 70%;
+}
+
+.hero .colsmall{
+    padding: 50px 0;
+}
+.hero .colbig{
+    padding: 50px 0;
+    
+    
+}
+
+.hero a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+
+
+
 
 /*----------------
     FOOTER
