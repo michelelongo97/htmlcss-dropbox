@@ -57,9 +57,11 @@
 .gap-10 {
     gap: 10px;
 }
+
 .gap-20 {
     gap: 20px;
 }
+
 .gap-30 {
     gap: 30px;
 }
@@ -84,10 +86,6 @@ h2{
     font-size: 40px;
     padding: 50px 0;
 }
-
-
-
-
 
 /*----------------
     BUTTONS
@@ -135,7 +133,6 @@ header{
     width: 50%;
     justify-content: flex-end;
     align-items: center;
-
 }
 
 .headerleft a{
@@ -155,7 +152,6 @@ header{
 .hero{
     display: flex;
     background-color: #b3d0e6;
-   
 }
 
 .colsmall{
@@ -169,23 +165,19 @@ header{
 .column{
     width: 100%;
     border: 1px solid black;
-  
-
 }
 
 .hero .colsmall{
     padding: 50px 0;
 }
+
 .hero .colbig{
     padding: 50px 0;
-    
-    
 }
 
 .hero a{
     color: black;
     text-decoration: none;
-    
 }
 
 .border{
@@ -207,12 +199,12 @@ header{
     padding: 50px 0;
 }
 
-#price{
+.price{
     font-weight: bold;
     padding: 30px 0;
 }
 
-#time{
+.time{
     color: grey;
 }
 
@@ -227,7 +219,6 @@ li{
 
 .sndcontent{
     padding-left: 30px;
-    
 }
 
 .row > .colbig{
@@ -243,9 +234,10 @@ li{
     margin: 50px;
 }
 
-#pad40{
+.pad40{
     padding: 40px 0;
 }
+
 /*----------------
     FOOTER
 ------------------*/
@@ -256,6 +248,7 @@ footer{
 footer h3{
     color: white;
 }
+
 footer .big-container .row{
     justify-content: space-between;
     padding-top: 50px;
@@ -266,7 +259,6 @@ footer ul{
     color: white;
     font-size: 14px;
     list-style-type: none;
-    
 }
 
 footer li{
