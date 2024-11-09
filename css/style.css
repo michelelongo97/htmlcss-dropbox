@@ -120,27 +120,33 @@ h2{
 ------------------*/
 header{
     display: flex;
-    padding: 25px 5px;
+    padding: 20px 5px;
+    background-color: white;
+    position: sticky;
+    top: 0;
 }
 
 .headerleft{
     width: 50%;
+    align-items: center;
 }
 
 .headerright{
     width: 50%;
-    text-align: right
+    justify-content: flex-end;
+    align-items: center;
+
 }
 
 .headerleft a{
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 15px;
     color:black;
 }
 
 .headerright a{
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 15px;
     color:black;
 }
 /*----------------
