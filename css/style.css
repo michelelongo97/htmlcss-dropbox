@@ -129,6 +129,7 @@ header{
     background-color: white;
     position: sticky;
     top: 0;
+    z-index: 9;
 }
 
 .headerleft{
@@ -259,6 +260,13 @@ li{
 
 .colsmall > h3{
     margin-top: 60px;
+}
+
+.arrow{
+    font-size: 50px;
+    position: relative;
+    left: 0;
+    top: 120px;
 }
 /*----------------
     FOOTER
