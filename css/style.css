@@ -169,6 +169,7 @@ header{
 .hero{
     display: flex;
     background-color: #b3d0e6;
+    height: 610px;
 }
 
 .colsmall{
@@ -272,7 +273,7 @@ li{
     font-size: 50px;
     position: relative;
     left: 0;
-    top: 120px;
+    top: 50px;
 }
 
 .pad40 a{
