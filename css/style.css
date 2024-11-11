@@ -120,6 +120,15 @@ h2{
 #lftbtn{
     margin-left: 0;
 }
+
+.btn100{
+    width: 100%;
+}
+
+.colsmall > .btn-large.btn-blue{
+    margin: 40px;
+}
+
 /*----------------
     HEADER
 ------------------*/
@@ -201,6 +210,7 @@ header{
 .content{
     padding-top: 30px;
     padding-left: 20px;
+    min-height: 450px;
 }
 
 .row.gap-30{
@@ -226,16 +236,12 @@ li{
 }
 
 .sndcontent{
-    padding-left: 30px;
+    padding: 0px 30px;
 }
 
 .row > .colbig{
     padding-top: 30px;
     padding-left: 30px;
-}
-
-.colsmall > .btn-large.btn-blue{
-    margin: 50px;
 }
 
 .marg{
@@ -267,6 +273,14 @@ li{
     position: relative;
     left: 0;
     top: 120px;
+}
+
+.pad40 a{
+    padding-left: 10px;
+}
+
+.pady20{
+    padding: 20px 0;
 }
 /*----------------
     FOOTER
