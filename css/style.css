@@ -66,6 +66,10 @@
     gap: 30px;
 }
 
+.gap-50{
+    gap: 50px;
+}
+
 .col {
     flex-grow: 1;
     width: 33%;
@@ -113,6 +117,9 @@ h2{
     border: 1px solid black;
 }
 
+#lftbtn{
+    margin-left: 0;
+}
 /*----------------
     HEADER
 ------------------*/
@@ -227,17 +234,32 @@ li{
 }
 
 .colsmall > .btn-large.btn-blue{
-    margin: 70px;
+    margin: 50px;
 }
 
-#marg{
-    margin: 50px;
+.marg{
+    margin: 50px 0;
 }
 
 .pad40{
     padding: 40px 0;
 }
 
+.marg100{
+    margin-bottom: 100px;
+}
+
+.pad40 h3{
+    font-size: 40px;
+}
+
+#padl0{
+    padding-left: 0;
+}
+
+.colsmall > h3{
+    margin-top: 60px;
+}
 /*----------------
     FOOTER
 ------------------*/
